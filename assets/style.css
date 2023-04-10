@@ -1,0 +1,18 @@
+p { display:none;}
+
+#data-list {
+    width: 100vw;
+    align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li img {
+    display:inline-block;
+    align: center;
+    width: 300px;
+    height: 300px;
+    object-fit: cover !important;
+  }
