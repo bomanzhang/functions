@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+	--spacing: 1em;
+    --bodycopy-fam: 'VT323', monospace;
+    --bodycopy-size: 1.2em;
+
+}
+
+
+td {
+    font-family: var(--bodycopy-fam);
+    text-transform: uppercase;
+    font-size:  var(--bodycopy-size);
+    padding-bottom: 1em;
+}
+
+#index-table {
+    width: 100%;
+}
