@@ -37,21 +37,15 @@ td {
     padding:2em;
 }
 
-/* a container - decorative, not required */
-.container {
-    width: 20rem;
-    padding: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-}
 
-/* container for all of the switch elements 
-    - adjust "width" to fit the content accordingly 
-*/
+.container {
+    position: fixed;
+    bottom: 0;
+}
 .switches-container {
     width: 16rem;
-    position: relative;
+    position: fixed;
+    bottom: 10px;
     display: flex;
     padding: 0;
     position: relative;

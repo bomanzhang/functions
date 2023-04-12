@@ -1,5 +1,24 @@
 const jsonData = [
+    {     
+        "image": "https://emare.eu/media/pages/works/improved-television/e49840b5e3-1668713888/screenshot-2022-11-17-203651.jpg",
+        "title": "Improved Television",
+        "artist": "Cornelia Solfrank",
+        "year": 2001,
+        "medium": "Conceptual internet music project,installation",
+        "dimensions": "N/A",
+        "link": "https://transhackfeminist.noblogs.org/"
+    },
+    {     
+        "image": "https://images.squarespace-cdn.com/content/v1/63a2ce0664014f2264b055d4/1671628116581-Q6PJTF0WXF52R5HSKZZQ/image-asset.png",
+        "title": "Female Extension",
+        "artist": "Cornelia Solfrank",
+        "year": 1997,
+        "medium": "Net.art",
+        "dimensions": "N/A",
+        "link": "https://transhackfeminist.noblogs.org/"
+    },
     {   
+        
         "image": "http://web.archive.org/web/20170910132507if_/https://transhackfeminist.noblogs.org/files/2014/08/transfuturisticcyborgs.png",
         "title": "THF! Transfuturistic Cyborgs",
         "artist": "TransHACKfeminist! Camp",

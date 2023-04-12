@@ -1,7 +1,7 @@
 p { display:none;}
 
 #data-list {
-    width: 100vw;
+    width: 105%;
     align: center;
 }
 
@@ -12,7 +12,7 @@ li {
 li img {
     display:inline-block;
     align: center;
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
     object-fit: cover !important;
   }
