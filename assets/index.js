@@ -76,11 +76,60 @@ const tableBody = document.querySelector('#index-table tbody');
 
 // loop through the JSON data and create a table row for each item
 for (let item of jsonData) {
-  const row = tableBody.insertRow();
-  row.insertCell().textContent = item.title
-  row.insertCell().textContent = item.artist;
-  row.insertCell().textContent = item.year;
-  row.insertCell().textContent = item.medium;
-  row.insertCell().textContent = item.dimensions;
-  row.insertCell().innerHTML = `<a href="${item.link}">Link</a>`;
-}
+    const row = tableBody.insertRow();
+    const titleCell = row.insertCell();
+    const image = document.createElement('img');
+    image.src = item.image;
+    image.alt = item.title;
+    image.classList.add('artwork-image');
+    titleCell.appendChild(image);
+    titleCell.insertAdjacentHTML('beforeend', item.title);
+    row.insertCell().textContent = item.artist;
+    row.insertCell().textContent = item.year;
+    row.insertCell().textContent = item.medium;
+    row.insertCell().textContent = item.dimensions;
+    row.insertCell().innerHTML = `<a href="${item.link}">Link</a>`;
+  }
+
+//
+  const searchBtn = document.querySelector('#search-btn');
+  const clearBtn = document.querySelector('#clear-btn');
+  searchBtn.addEventListener('click', search);
+  clearBtn.addEventListener('click', clearSearch);
+  function search() {
+    const searchInput = document.querySelector('#search').value.toLowerCase();
+    const filteredData = jsonData.filter(item =>
+      item.title.toLowerCase().includes(searchInput) ||
+      item.artist.toLowerCase().includes(searchInput) ||
+      item.year.toString().includes(searchInput) ||
+      item.medium.toLowerCase().includes(searchInput) ||
+      item.dimensions.toLowerCase().includes(searchInput)
+    );
+    renderTable(filteredData);
+  }
+
+//Clear search
+  function clearSearch() {
+    document.querySelector('#search').value = '';
+    renderTable(jsonData);
+  }
+
+//Render table for search results 
+  function renderTable(data) {
+    tableBody.innerHTML = '';
+    for (let item of data) {
+      const row = tableBody.insertRow();
+      const titleCell = row.insertCell();
+      const image = document.createElement('img');
+      image.src = item.image;
+      image.alt = item.title;
+      image.classList.add('artwork-image');
+      titleCell.appendChild(image);
+      titleCell.insertAdjacentHTML('beforeend', item.title);
+      row.insertCell().textContent = item.artist;
+      row.insertCell().textContent = item.year;
+      row.insertCell().textContent = item.medium;
+      row.insertCell().textContent = item.dimensions;
+      row.insertCell().innerHTML = `<a href="${item.link}">Link</a>`;
+    }
+  }

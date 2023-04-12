@@ -9,6 +9,11 @@
 		<script defer src="assets/index.js"></script>
 	</head>
 	<body>
+		<div class="search-feature">
+			<input type="text" id="search" placeholder="Search...">
+			<button id="search-btn">Search</button>
+			<button id="clear-btn">Clear</button>
+</div>
 		<table id="index-table">
 			<thead>
 			  <tr>
@@ -23,5 +28,18 @@
 			<tbody>
 			</tbody>
 		  </table>
-	</body>
+		  <div class="container">
+			<div class="switches-container">
+			  <input type="radio" id="switchMonthly" name="switchPlan" value="Monthly" checked="checked" />
+			  <input type="radio" id="switchYearly" name="switchPlan" value="Yearly" />
+			  <label for="switchMonthly">Index</label>
+			  <label for="switchYearly">Gallery</label>
+			  <div class="switch-wrapper">
+				<div class="switch">
+				  <div>Index</div>
+				  <div>Gallery</div>
+				</div>
+			  </div>
+			</div>
+		  </div>	</body>
 </html>
