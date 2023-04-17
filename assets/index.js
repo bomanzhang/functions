@@ -110,7 +110,7 @@ for (let item of jsonData) {
     row.insertCell().innerHTML = `<a href="${item.link}">Link</a>`;
   }
 
-//
+//Search button
   const searchBtn = document.querySelector('#search-btn');
   const clearBtn = document.querySelector('#clear-btn');
   searchBtn.addEventListener('click', search);
