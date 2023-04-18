@@ -25,7 +25,7 @@ const renderItems = (data) => {
 					<p>Source</p>
 				</a>
 			`
-		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
+		//listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
 		// You can build logic from your specific data, too
 /* 		if (!item.alsoWriter) { // If this is `false`

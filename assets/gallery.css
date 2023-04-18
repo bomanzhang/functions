@@ -3,11 +3,14 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
   }
 
 p {
-    font-family: ''
+    color: greenyellow;
+    font-family: 'Silkscreen', cursive;
 }
+
   #data-list {
     display: flex;
     flex-wrap: wrap;
@@ -18,17 +21,17 @@ p {
   
   #data-list li {
     width: 30%;
-    margin: 10px;
+    margin: 0px;
     text-align: center;
     cursor: pointer;
   }
   
   #data-list li img {
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 50vh;
     object-fit: cover;
   }
-  
+
   .fullscreen {
     position: fixed;
     top: 0;
