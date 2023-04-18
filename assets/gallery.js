@@ -20,7 +20,7 @@ const renderItems = (data) => {
 			`	<p>Title: ${item.title}</p>
 				<p>Artist: ${item.artist}</p>
 				<p>Medium: ${item.medium}</p>
-				<p>Dimensions: ${item.dimensions}</p>
+				<p>Description: ${item.description}</p>
 				<a href="${item.link}">
 					<p>Source</p>
 				</a>

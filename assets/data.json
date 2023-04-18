@@ -1,11 +1,39 @@
 [
     {   
-        "image": "https://calafou.org/web/data/_uploaded/image/proyectos/anarchaserver_bkg1024.jpg",
-        "title": "Anarchaserver",
-        "artist": "Anarchaserver",
-        "year": 2013,
-        "medium": "Feminist server",
-        "link": "https://anarchaserver.org/"
+        "image": "https://www.anat.org.au/wp-content/uploads/2022/09/unnamed.jpg",
+        "title": "HER EYES WERE AS BLACK AS COAL",
+        "artist": "In Her Interior (Virginia Barratt and Francesca da Rimini)",
+        "year": 2018,
+        "medium": "2 channel video and installation",
+        "description":"",
+        "link": "http://www.anat.org.au/anat-update/anat-alumnus-virginia-barratt/"
+    },
+    {   
+        "image": "https://images.squarespace-cdn.com/content/v1/5d71c5cfe0f5f90001021017/1598577748656-OVH5F8WZLD11PMEU6SD0/accomplices_IHI_460kb.jpg?format=1500w",
+        "title": "HER EYES WERE AS BLACK AS COAL",
+        "artist": "In Her Interior (Virginia Barratt and Francesca da Rimini)",
+        "year": 2018,
+        "medium": "2 channel video and installation",
+        "description":"",
+        "link": "https://www.thisbreath.space/in-her-interior"
+    },
+    {   
+        "image": "https://images.squarespace-cdn.com/content/v1/5c8f4d16809d8e697b0fc54b/1580490880280-JZR3EFH17GNGE4PKE203/_SP_6198-Edit-web.jpg?format=1500w",
+        "title": "HER EYES WERE AS BLACK AS COAL",
+        "artist": "In Her Interior (Virginia Barratt and Francesca da Rimini)",
+        "year": 2019,
+        "medium": "Mixed media installation and video",
+        "description":"",
+        "link": "https://refreshart.tech/in-her-interior"
+    },
+    {   
+        "image": "https://vectoreditors.files.wordpress.com/2017/11/laboria-cuboniks-image-courtesy-diann-bauer.jpg",
+        "title": " Post-Cyber Feminist International",
+        "artist": "Laboria Cuboniks",
+        "year": 2017,
+        "medium": "Digital image",
+        "description":"",
+        "link": "https://vector-bsfa.com/2017/11/20/post-cyber-feminist-international/"
     },
     {   
         "image": "http://www.lindadement.com/images/img/g3-right03.jpg",
