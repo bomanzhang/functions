@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+:root {
+	--spacing: 1em;
+    --bodycopy-fam: 'Silkscreen', cursive;
+    --bodycopy-size: 1.2em;
+    --switches-bg-color: black;
+    --switches-label-color: white ;
+    --switch-bg-color: white;
+    --switch-text-color: black ;
+    }
+
+p {
+    font-family: var(--bodycopy-fam);
+}

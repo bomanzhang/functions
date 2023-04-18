@@ -32,6 +32,22 @@ const renderItems = (data) => {
 			listItem.classList.add('faded') // Add this class to the whole `li`
 		} */
 
+		listItem.addEventListener('click', () => {
+			const fullScreen = document.createElement('div')
+			fullScreen.classList.add('fullscreen')
+			const fullScreenImage = document.createElement('img')
+			fullScreenImage.src = item.image
+			fullScreen.appendChild(fullScreenImage)
+			const fullScreenDetails = document.createElement('div')
+			fullScreenDetails.classList.add('fullscreen-details')
+			fullScreenDetails.innerHTML = itemDetails
+			fullScreen.appendChild(fullScreenDetails)
+			document.body.appendChild(fullScreen)
+			fullScreen.addEventListener('click', () => {
+			  document.body.removeChild(fullScreen)
+			})
+		  })
+
 		dataList.appendChild(listItem) // Then add the whole `li` into the `ul`
 	})
 }
