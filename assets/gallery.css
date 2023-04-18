@@ -10,20 +10,43 @@ h1, h2, h3, p {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 1.4em;
 }
 
 .gallery-title {
     position: fixed;
     z-index: 1;
-    margin-left: 8px;
+    margin: 10px;
+    background-color: black;
+    border: 1px solid greenyellow;
+    border-radius: 30px;
+    padding: 2px 12px 4px 12px;
+    box-shadow: 0 0 50px 10px greenyellow;
+
 }
 
 .gallery-info {
     position: fixed;
     z-index: 1;
     right: 0;
-    margin-right: 8px;
+    margin: 10px;
+    background-color: black;
+    border: 1px solid greenyellow;
+    border-radius: 30px;
+    padding: 2px 12px 4px 12px;
+    box-shadow: 0 0 50px 10px greenyellow;
+}
+
+.switch {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    margin: 10px;
+    background-color: black;
+    border: 1px solid greenyellow;
+    border-radius: 30px;
+    padding: 2px 12px 4px 12px;
+    box-shadow: 0 0 50px 10px greenyellow;
 }
 
   #data-list {
@@ -67,9 +90,9 @@ h1 {
   }
   
   .fullscreen-details {
-    color: white;
+    background-color: none;
     position: absolute;
-    bottom: 20px;
+    top: 50px;
     left: 20px;
     text-align: left;
     font-size: 16px;
