@@ -17,6 +17,7 @@ h1 {
     position: fixed;
     z-index: 1;
     margin: 10px;
+    right:0;
     background-color: black;
     border: 1px solid greenyellow;
     border-radius: 30px;
@@ -29,6 +30,7 @@ h1 {
     position: fixed;
     z-index: 1;
     right: 0;
+    bottom: 0;
     margin: 10px;
     background-color: black;
     border: 1px solid greenyellow;
@@ -41,6 +43,22 @@ h1 {
     position: fixed;
     z-index: 1;
     bottom: 0;
+    margin: 10px;
+    background-color: black;
+    border: 1px solid greenyellow;
+    border-radius: 30px;
+    padding: 2px 12px 4px 12px;
+    box-shadow: 0 0 50px 10px greenyellow;
+}
+
+.search-feature {
+    font-family: 'Silkscreen', cursive;
+    color: greenyellow;
+    font-size: 1.4em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
     margin: 10px;
     background-color: black;
     border: 1px solid greenyellow;
