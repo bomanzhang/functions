@@ -19,11 +19,19 @@ h1 {
     margin: 10px;
     right:0;
     background-color: black;
-    border: 1px solid greenyellow;
+    border: 2px solid greenyellow;
     border-radius: 30px;
     padding: 2px 12px 4px 12px;
-    box-shadow: 0 0 50px 10px greenyellow;
+    box-shadow: 0 0 12px 0px greenyellow;
+}
 
+.gallery-title:hover {
+    background-color: greenyellow;
+    border: 2px solid black;   
+}
+
+.gallery-title h1:hover {
+    color: black;
 }
 
 .gallery-info {
@@ -33,10 +41,19 @@ h1 {
     bottom: 0;
     margin: 10px;
     background-color: black;
-    border: 1px solid greenyellow;
+    border: 2px solid greenyellow;
     border-radius: 30px;
     padding: 2px 12px 4px 12px;
-    box-shadow: 0 0 50px 10px greenyellow;
+    box-shadow: 0 0 12px 0px greenyellow;
+}
+
+.gallery-info:hover {
+    background-color: greenyellow;
+    border: 2px solid black;   
+}
+
+.gallery-info h1:hover {
+    color: black;
 }
 
 .switch {
@@ -45,10 +62,19 @@ h1 {
     bottom: 0;
     margin: 10px;
     background-color: black;
-    border: 1px solid greenyellow;
+    border: 2px solid greenyellow;
     border-radius: 30px;
     padding: 2px 12px 4px 12px;
-    box-shadow: 0 0 50px 10px greenyellow;
+    box-shadow: 0 0 12px 0px greenyellow;
+}
+
+.switch:hover {
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+.switch h1:hover {
+    color: black;
 }
 
 .search-feature {
@@ -61,10 +87,10 @@ h1 {
     left: 0;
     margin: 10px;
     background-color: black;
-    border: 1px solid greenyellow;
+    border: 2px solid greenyellow;
     border-radius: 30px;
     padding: 2px 12px 4px 12px;
-    box-shadow: 0 0 50px 10px greenyellow;
+    box-shadow: 0 0 12px 0px greenyellow;
 }
 
   #data-list {
@@ -110,9 +136,42 @@ h1 {
   .fullscreen-details {
     background-color: none;
     position: absolute;
-    top: 50px;
+    top: 4em;
     left: 20px;
     text-align: left;
     font-size: 16px;
     line-height: 1.5;
   }
+
+  .home-title {
+    font-family: 'Silkscreen', cursive;
+    color: greenyellow;
+    z-index: 1;
+    text-align: center;
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    padding: 2px 12px 4px 12px;
+    box-shadow: 0 0 12px 0px greenyellow;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  .home-description {
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  canvas {
+    display: block;
+    z-index: -999;
+}
