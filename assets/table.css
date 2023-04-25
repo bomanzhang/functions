@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+  }
+
+h1, h2, h3, p {
+    color: greenyellow;
+    font-family: 'Silkscreen', cursive;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+.gallery-title {
+    position: fixed;
+    z-index: 1;
+    margin: 10px;
+    left: 0;
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    padding: 2px 12px 4px 12px;
+    box-shadow: 0 0 12px 0px greenyellow;
+}
+
+.gallery-title:hover {
+    background-color: greenyellow;
+    border: 2px solid black;   
+}
+
+.gallery-title h1:hover {
+    color: black;
+}
+
+.switches {
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    top: 0;
+    right: 0;
+  }
+  
+  .switch1 {
+    position: block;
+    z-index: 1;
+    margin: 10px;
+    background-color: black;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    padding: 2px 12px 4px 12px;
+    box-shadow: 0 0 12px 0px greenyellow;
+  }
+  
+  .switch1:hover {
+    background-color: greenyellow;
+    border: 2px solid black;
+  }
+  
+  .switch1 h1:hover {
+    color: black;
+  }
+  
+  .switch2 h1 {
+    color: black !important;
+  }
+  .switch2 {
+    position: block;
+    z-index: 1;
+    margin: 10px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 2px 12px 4px 12px;
+    box-shadow: 0 0 12px 0px greenyellow;
+  }
+  
+table {
+    width: 100%;
+}
+
+td {
+    font-family: 'Silkscreen', cursive;
+    color: greenyellow;
+    padding-bottom: 1em;
+}
+
+th {
+    font-family: 'Silkscreen', cursive;
+    color: greenyellow;
+    padding-bottom: 1em;
+    padding-top: 8em !important;
+}
+
+.tbody {
+    width: auto;
+    table-layout: auto;
+}
+
+.expand-cell {
+    cursor: pointer;
+    table-layout: auto;
+}
+
+#index-table {
+    width: 98vw;
+    margin: 10px;
+    table-layout: auto;
+}
+
+.artwork-image {
+    display: block;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.preview-image {
+    max-width: 250px;
+}
+
+.title-p, .artist-p, .year-p, .medium-p {
+    border: 1px solid yellowgreen;
+    border-radius: 30px;
+    padding-bottom: 1px;
+    width:fit-content;
+
+}
+
+@media only screen and (max-width:768px) and (min-width:200px) {
+
+    body {width: 100vw;}
+    h1 {font-size: 1em;}
+    p {font-size:1em;}
+
+    td {
+        font-size: 0.8em;
+        width: 50%;
+        height: 50px;
+        padding-left: 5px;
+    }
+
+    .switches {
+        display: block;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        right: 0;
+      }
+
+      
+    #index-table {
+        width: 95vw;
+        margin: 10px;
+        table-layout: auto;
+    }
+
+    .artwork-image {
+        margin-bottom: 15px;
+    }
+
+    .hidden {
+        display: none;
+      }
+    
+    .year-column {
+        display: none;
+    }
+
+    .medium-column {
+        display: none;
+    }
+}

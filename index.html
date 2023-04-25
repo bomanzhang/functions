@@ -1,38 +1,56 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Index | Cyberfeminist Art</title>
+		<title>Cyberfeminist Art</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="assets/reset.css" rel="stylesheet">
 		<link href="assets/index.css" rel="stylesheet">
 		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👽</text></svg>">
-		<script defer src="assets/index.js"></script>
 	</head>
 	<body>
+		<canvas id ="canvas"></canvas>
+
 		<div class="gallery-title">
-			<a href="home.html"><h1>Cyberfeminist Art</h1></a></div>
-			<div class="switches">
-				<div class="switch1">
-					<a href="gallery.html"><h1>Gallery</h1></a>
-				</div>
-	
-				<div class="switch2">
-				<a href="index.html"><h1>Index</h1></a>
-				</div>
+			<h1>Cyberfeminist Art</h1>
+		</div>
+
+		<div class="switches">
+			<div class="switch1">
+				<a href="gallery.html"><h1>Gallery</h1></a>
 			</div>
-		<table id="index-table">
-			<thead>
-			  <tr>
-				<th><p class="title-p">&nbsp;Title&nbsp;</p></th>
-				<th><p class="artist-p">&nbsp;Artist&nbsp;</p></th>
-				<th class="medium-column"><p class="medium-p">&nbsp;Medium&nbsp;</p></th>
-				<th class="year-column"><p class="year-p">&nbsp;Year&nbsp;</p></th>
-				<th></th>
-			  </tr>
-			</thead>
-			<tbody>
-			</tbody>
-		  </table>
+
+			<div class="switch2">
+			<a href="table.html"><h1>Index</h1></a>
+			</div>
+		</div>
+
+		<div class="allInfo" id="myInfo">
+			<div class="tab"><p>What is this?</p><p>🅇</p></div>
+			<div class="content"><p>This is a curated collection of artists and their works that relate to the cyberfeminist discourse. Its primary purpose is to serve as a resource for students, artists, and anyone who is curious about the realm of cyberfeminism.</p></div>
+	 	</div>
+
+	  	<div class="allInfo" id="myInfo2">
+			<div class="tab"><p>What is Cyberfeminism?</p><p>🅇</p></div>
+			<div class="content"><p>Cyberfeminism is a movement that seeks to explore the intersection of feminism and technology, and to promote the use of technology to further the goals of feminism. It emerged in the 1990s as a response to the male-dominated culture of the early internet, and sought to create a space for women to express themselves and engage in feminist activism online.</p></div>
+	  	</div>
+
+	  	<div class="allInfo" id="myInfo3">
+			<div class="tab"><p>Useful Links</p><p>🅇</p></div>
+			<div class="content">
+				<p>
+				<a href="https://monoskop.org/images/4/4c/Haraway_Donna_1985_A_Manifesto_for_Cyborgs_Science_Technology_and_Socialist_Feminism_in_the_1980s.pdf">
+					A Cyborg Manifesto by Donna Haraway (1985)↗
+				</a>
+				<br>
+				<a href="https://cyberfeminismindex.com/">Cyberfeminism Index (Mindy Seu)↗</a>
+				<br>
+				<a href="https://monoskop.org/Cyberfeminism">Cyberfeminism Wiki (Monoskop.org)↗</a>
+				</p>
+			</div>
+	  </div>
+
+		<script src="assets/index.js"></script>     
 	</body>
+	
 </html>
