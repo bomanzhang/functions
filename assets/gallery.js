@@ -20,38 +20,45 @@ const renderItems = (data) => {
 			`	<p>Title: ${item.title}</p>
 				<p>Artist: ${item.artist}</p>
 				<p>Medium: ${item.medium}</p>
-				<p>Description: ${item.description}</p>
 				<a href="${item.link}">
 					<p>Source</p>
 				</a>
 			`
 		//listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
 
-		// You can build logic from your specific data, too
-/* 		if (!item.alsoWriter) { // If this is `false`
-			listItem.classList.add('faded') // Add this class to the whole `li`
-		} */
 
-		listItem.addEventListener('click', () => {
-			const fullScreen = document.createElement('div')
-			fullScreen.classList.add('fullscreen')
-			const fullScreenImage = document.createElement('img')
-			fullScreenImage.src = item.image
-			fullScreen.appendChild(fullScreenImage)
-			const fullScreenDetails = document.createElement('div')
-			fullScreenDetails.classList.add('fullscreen-details')
-			fullScreenDetails.innerHTML = itemDetails
-			fullScreen.appendChild(fullScreenDetails)
-			document.body.appendChild(fullScreen)
-			fullScreen.addEventListener('click', () => {
-			  document.body.removeChild(fullScreen)
-			})
-		  })
+// Create a click event listener
+listItem.addEventListener('click', () => {
 
-		dataList.appendChild(listItem) // Then add the whole `li` into the `ul`
+	// Create new div element fullScreen
+	const fullScreen = document.createElement('div')
+	// Added a class 'fullscreen' to the div element
+	fullScreen.classList.add('fullscreen')
+	// Create a new image element called fullScreenImage
+	const fullScreenImage = document.createElement('img')
+
+	// Setting the source of fullScreenImage to the value of item.image
+	fullScreenImage.src = item.image
+	fullScreen.appendChild(fullScreenImage)
+
+	// Create new div element for each image's details
+	const fullScreenDetails = document.createElement('div')
+
+	fullScreenDetails.classList.add('fullscreen-details')
+	fullScreenDetails.innerHTML = itemDetails
+	fullScreen.appendChild(fullScreenDetails)
+	document.body.appendChild(fullScreen)
+
+	// Remove the fullScreen element from body when clicked 
+	fullScreen.addEventListener('click', () => {
+	document.body.removeChild(fullScreen)
+	})
+})
+
+	// Then add the whole `li` into the `ul`
+	dataList.appendChild(listItem) 
 	})
 }
-
 
 // Fetch gets your JSON file…
 fetch('assets/data.json')
