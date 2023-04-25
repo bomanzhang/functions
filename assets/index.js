@@ -5,7 +5,7 @@ const jsonData = [
         "artist": "In Her Interior",
         "year": 2018,
         "medium":"installation",
-        "description":" In Her Interior exhibited the video and soundwork installation 'her eyes were as black as coal...' at 205 Hudson Gallery in New York. They had produced the work for an event called Refiguring the Future. Three characters - krill, spore and terra - emerged from the not-yet photographed black hole. The conditions momentarily perfect to give voice to the anthropoetics of time-travelling fossil-becomings. These voices without organs had been channeled by In Her Interior through field trips and the fugue-induced sympoiesis of collaborative writing across timespace",
+        "description":"In Her Interior exhibited the video and soundwork installation 'her eyes were as black as coal...' at 205 Hudson Gallery in New York. They had produced the work for an event called Refiguring the Future. Three characters - krill, spore and terra - emerged from the not-yet photographed black hole. The conditions momentarily perfect to give voice to the anthropoetics of time-travelling fossil-becomings. These voices without organs had been channeled by In Her Interior through field trips and the fugue-induced sympoiesis of collaborative writing across timespace",
         "link": "http://www.anat.org.au/anat-update/anat-alumnus-virginia-barratt/"
     },
     {   
@@ -14,7 +14,7 @@ const jsonData = [
         "artist": "In Her Interior",
         "year": 2018,
         "medium": "installation",
-        "description":"",
+        "description":"In Her Interior exhibited the video and soundwork installation 'her eyes were as black as coal...' at 205 Hudson Gallery in New York. They had produced the work for an event called Refiguring the Future. Three characters - krill, spore and terra - emerged from the not-yet photographed black hole. The conditions momentarily perfect to give voice to the anthropoetics of time-travelling fossil-becomings. These voices without organs had been channeled by In Her Interior through field trips and the fugue-induced sympoiesis of collaborative writing across timespace",
         "link": "https://www.thisbreath.space/in-her-interior"
     },
     {   
@@ -23,7 +23,7 @@ const jsonData = [
         "artist": "In Her Interior",
         "year": 2019,
         "medium": "Mixed media installation",
-        "description":"",
+        "description":"In Her Interior exhibited the video and soundwork installation 'her eyes were as black as coal...' at 205 Hudson Gallery in New York. They had produced the work for an event called Refiguring the Future. Three characters - krill, spore and terra - emerged from the not-yet photographed black hole. The conditions momentarily perfect to give voice to the anthropoetics of time-travelling fossil-becomings. These voices without organs had been channeled by In Her Interior through field trips and the fugue-induced sympoiesis of collaborative writing across timespace",
         "link": "https://refreshart.tech/in-her-interior"
     },
     {   
@@ -32,7 +32,7 @@ const jsonData = [
       "artist": "Diann Bauer",
       "year": 2020,
       "medium": "Still from video work",
-      "description":"",
+      "description":"This is a lecture by Helen Hester titled 'The Body as Technology: Putting Gender to Work' and one by Diann Bauer introducing the idea of Xenotemporality. It was recorded for the dance festival in Bergen, Norway called Oktoberdans, 2020. The lectures were edited by Diann Bauer. The Q&A was live and is not included here. Both Hester and Bauer both wear masks created by Anna Engelhardt in collaboration with Medina Bazargali",
       "link": "https://vimeo.com/472224217"
     },
     {   
@@ -41,16 +41,16 @@ const jsonData = [
         "artist": "Diann Bauer",
         "year": 2017,
         "medium": "Still from video work",
-        "description":"",
+        "description":"In 2015 the feminist working group Laboria Cuboniks wrote and published ‘Xenofeminism: A Politics for Alienation’. ‘XF take 4’ is a video made to succinctly speak about the project. The full manifesto can be found at laboriacuboniks.net.",
         "link": "https://vimeo.com/216831883"
     },
     {   
         "image": "https://vectoreditors.files.wordpress.com/2017/11/laboria-cuboniks-image-courtesy-diann-bauer.jpg",
-        "title": " Post-Cyber Feminist International",
+        "title": "Post-Cyber Feminist International",
         "artist": "Laboria Cuboniks",
         "year": 2017,
         "medium": "Digital image",
-        "description":"",
+        "description":"Post-Cyber Feminist International took place at the ICA between 15-19 Nov 2017, and consisted of a series of events, exhibitions and workshops dedicated to exploring how radical gender politics can shape our technological future. Visual artists, musicians, writers and theorists came together to find new ways of engaging with race, class, gender and to discuss their work-in-progress",
         "link": "https://vector-bsfa.com/2017/11/20/post-cyber-feminist-international/"
     },
     {   
@@ -59,7 +59,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1999,
         "medium": "Video art",
-        "description":"",
+        "description":"In My Gash takes you into the flesh of a depressed and dangerous girl, drug fucked and damaged. Four wounds are entrances to the nightmare interior where the stories and horrors of bodily memories emerge under the cursor on screen. Each gash leads to the black hole of despair where soundloops and suicide circle endlessly",
         "link": "http://www.lindadement.com/in-my-gash.htm"
     },
     {   
@@ -68,7 +68,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1995,
         "medium": "CD-ROM, Interactive art",
-        "description":"",
+        "description":"At the Adelaide Festival, about 30 women donated body parts by scanning their chosen flesh and digitally recording sound. From these, conglomerate bodies were created, animated and made interactive. When a viewer clicks on one of these monsters, the words attached to that body part could be heard or seen, another monster may appear, a digital video could play, a story or biological information about the physical state described by the story, may be displayed. Cyberflesh Girlmonster is a macabre comedy of monstrous femininity, of revenge, desire and violence",
         "link": "http://www.lindadement.com/cyberflesh-girlmonster.htm"
     },
     {   
@@ -77,7 +77,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1995,
         "medium": "CD-ROM, Interactive art",
-        "description":"",
+        "description":"At the Adelaide Festival, about 30 women donated body parts by scanning their chosen flesh and digitally recording sound. From these, conglomerate bodies were created, animated and made interactive. When a viewer clicks on one of these monsters, the words attached to that body part could be heard or seen, another monster may appear, a digital video could play, a story or biological information about the physical state described by the story, may be displayed. Cyberflesh Girlmonster is a macabre comedy of monstrous femininity, of revenge, desire and violence",
         "link": "http://www.lindadement.com/cyberflesh-girlmonster.htm"
     },
     {   
@@ -86,7 +86,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1995,
         "medium": "CD-ROM, Interactive art",
-        "description":"",
+        "description":"At the Adelaide Festival, about 30 women donated body parts by scanning their chosen flesh and digitally recording sound. From these, conglomerate bodies were created, animated and made interactive. When a viewer clicks on one of these monsters, the words attached to that body part could be heard or seen, another monster may appear, a digital video could play, a story or biological information about the physical state described by the story, may be displayed. Cyberflesh Girlmonster is a macabre comedy of monstrous femininity, of revenge, desire and violence",
         "link": "http://www.lindadement.com/cyberflesh-girlmonster.htm"
     },
     {   
@@ -95,7 +95,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1991,
         "medium": "CD-ROM, Interactive art",
-        "description":"",
+        "description":"In Typhoid Mary, a user moves blindly between images, animations, sounds, quotes, diary extracts, medical information and statistics. Occasionally stories will print out. Bodies of information orbit and loop to build up a portrait of a diseased, depressed and murderous stripper. Levels of intimacy with the bleak, sexual and violent content are kept safe by the technological media: the flesh is not really flesh, it is pixels and so can be touched. Unless the work is touched, nothing happens",
         "link": "http://www.lindadement.com/typhoid-mary.htm"
     },
     {   
@@ -104,7 +104,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1991,
         "medium": "CD-ROM, Interactive art",
-        "description":"",
+        "description":"In Typhoid Mary, a user moves blindly between images, animations, sounds, quotes, diary extracts, medical information and statistics. Occasionally stories will print out. Bodies of information orbit and loop to build up a portrait of a diseased, depressed and murderous stripper. Levels of intimacy with the bleak, sexual and violent content are kept safe by the technological media: the flesh is not really flesh, it is pixels and so can be touched. Unless the work is touched, nothing happens",
         "link": "http://www.lindadement.com/typhoid-mary.htm"
     },
     {   
@@ -113,7 +113,7 @@ const jsonData = [
         "artist": "Eclectic Tech Carnival",
         "year": 2004,
         "medium": "Logo",
-        "description":"",
+        "description":"Tech workshop event organised by women for women.In 2001 a group of women going under the name The GenderChangers Academy (GCA) were giving workshops in the ASCII (Amsterdam Subversive Center for Information Interchange), one of the first hackerspaces in The Netherlands",
         "link": "https://eclectictechcarnival.org/"
     },
     {   
@@ -122,7 +122,7 @@ const jsonData = [
         "artist": "The Old Boys Network",
         "year": 1997,
         "medium": "Poster",
-        "description":"",
+        "description":"OBN stands for Old Boys Network. OBN is regarded as the first international Cyberfeminist alliance and was founded in 1997 in Berlin. Since the early days the network keeps changing due to changing members. OBN is a real and a virtual coalition of Cyberfeminists. Under the umbrella of the term 'Cyberfeminism', OBN contributes to the critical discourse on new media, especially focussing on its gender-specific aspects",
         "link": "https://obn.org/obn/reading_room/manifestos/html/anti.html"
     },
     {
@@ -131,8 +131,8 @@ const jsonData = [
         "artist": "Cornelia Solfrank",
         "year": 2001,
         "medium": "Conceptual internet project",
-        "description":"",
-        "link": "https://transhackfeminist.noblogs.org/"
+        "description":"Improved Tele-vision is Sollfrank's continuation of artistic interventions that manipulated the speed of Arnold Schoenberg's piece Verklärte Nacht, opus 4. Korean-born video pioneer Nam June Paik (1977) and Swiss action and object artist Dieter Roth (1979) made interventions in the piece and recorded their respective interventions through specially produced records. Sollfrank then develops an emancipatory proposal with a wink: the listener should decide for himself at what speed the piece is played - and thus become an interactive user",
+        "link": "https://emare.eu/works/improved-television"
     },
     {     
         "image": "https://images.squarespace-cdn.com/content/v1/63a2ce0664014f2264b055d4/1671628116581-Q6PJTF0WXF52R5HSKZZQ/image-asset.png",
@@ -140,8 +140,8 @@ const jsonData = [
         "artist": "Cornelia Solfrank",
         "year": 1997,
         "medium": "Net.art",
-        "description":"",
-        "link": "https://transhackfeminist.noblogs.org/"
+        "description":"In 1997 the Hamburger Kunsthalle announced a Net art competition. Cornelia Sollfrank drily countered 'Extension' into the Net with a 'Female Extension': she created 288 international female artists, complete with postal and e-mail addresses. Sollfrank generated individual Net art projects for 127 of these artists, using a computer program that collected random HTML material from the WWW and recombined it automatically",
+        "link": "http://www.medienkunstnetz.de/works/female-extension/"
     },
     {      
         "image": "http://web.archive.org/web/20170910132507if_/https://transhackfeminist.noblogs.org/files/2014/08/transfuturisticcyborgs.png",
@@ -149,7 +149,7 @@ const jsonData = [
         "artist": "TransHACKfeminist! Camp",
         "year": 2014,
         "medium": "Digital collage, poster",
-        "description":"",
+        "description":"The TransH@ckFeminist (THF!) convergence, organised in collaboration with Calafou &  /etc (eclectic tech carnival), is a gathering of intersectional feminists, queer and trans people of all genders interested in better understanding, using and ultimately developing free and liberating technologies for social dissent, as an alternative to the corporatisation of technologies and the digital world. We understand technologies in their broadest sense including computer systems, (distributed) networks, “pirate”, community and/or independent radio/ tv, guerilla knitting and gardening, looming, hardware hacking as well as gender hacking",
         "link": "https://transhackfeminist.noblogs.org/"
     },
     {   
@@ -158,7 +158,7 @@ const jsonData = [
         "artist": "TransHACKfeminist! Camp",
         "year": 2014,
         "medium": "Digital collage, poster",
-        "description":"",
+        "description":"The TransH@ckFeminist (THF!) convergence, organised in collaboration with Calafou &  /etc (eclectic tech carnival), is a gathering of intersectional feminists, queer and trans people of all genders interested in better understanding, using and ultimately developing free and liberating technologies for social dissent, as an alternative to the corporatisation of technologies and the digital world. We understand technologies in their broadest sense including computer systems, (distributed) networks, “pirate”, community and/or independent radio/ tv, guerilla knitting and gardening, looming, hardware hacking as well as gender hacking",
         "link": "https://transhackfeminist.noblogs.org/"
     },
     {   
@@ -167,7 +167,7 @@ const jsonData = [
         "artist": "TransHACKfeminist! Camp",
         "year": 2014,
         "medium": "Digital collage, poster",
-        "description":"",
+        "description":"The TransH@ckFeminist (THF!) convergence, organised in collaboration with Calafou &  /etc (eclectic tech carnival), is a gathering of intersectional feminists, queer and trans people of all genders interested in better understanding, using and ultimately developing free and liberating technologies for social dissent, as an alternative to the corporatisation of technologies and the digital world. We understand technologies in their broadest sense including computer systems, (distributed) networks, “pirate”, community and/or independent radio/ tv, guerilla knitting and gardening, looming, hardware hacking as well as gender hacking",
         "link": "https://transhackfeminist.noblogs.org/"
     },
     {
@@ -176,16 +176,16 @@ const jsonData = [
         "artist": "Varia Rotterdam",
         "year": 2019,
         "medium": "Mixed media",
-        "description":"",
-        "link": "https://www.imdb.com/title/tt0045758"
+        "description":"Relearn is a collective learning experiment with as many teachers as it has participants. It is motivated by the possibility to displace parameters of/for research, studying and learning",
+        "link": "https://vvvvvvaria.org/en/relearn.html"
     },
 	{   "image": "https://monoskop.org/images/4/44/VNS_Matrix_1.jpg",
 		"title": "A Cyberfeminist Manifesto for the 21st Century",
         "artist": "VNS Matrix",
 		"year": 2007,
 		"medium": "Postcard",
-		"description":"",
-        "link": "https://www.imdb.com/title/tt0045758"
+		"description":"In 1991, VNS Matrix unleashed their collaborative manifesto A Cyberfeminist Manifesto for the 21st Century. They put it on the internet and a giant travelling billboard. From there, it quickly leaked onto the radio and magazine pages and other IRL ephemera, jumping from medium to medium at rapid pace, eventually coming to rest in the centre of a 6m x 3m billboard, flanked by speculative/fantastical icons, in the form of a futuristic sigil. It was in this gyne-canonical text that the term “cyberfeminism” first appeared",
+        "link": "https://vnsmatrix.net/projects/the-cyberfeminist-manifesto-for-the-21st-century"
 	},
 	{
         "image": "https://monoskop.org/images/7/7a/VNS_Matrix_1991_A_Cyberfeminist_Manifesto_for_the_21st_Century.jpg",
@@ -193,8 +193,8 @@ const jsonData = [
         "artist": "VNS Matrix",
 		"year": 1991,
 		"medium": "Billboard, digital image",
-		"description":"",
-		"link": "https://www.imdb.com/title/tt0045758"
+		"description":"In 1991, VNS Matrix unleashed their collaborative manifesto A Cyberfeminist Manifesto for the 21st Century. They put it on the internet and a giant travelling billboard. From there, it quickly leaked onto the radio and magazine pages and other IRL ephemera, jumping from medium to medium at rapid pace, eventually coming to rest in the centre of a 6m x 3m billboard, flanked by speculative/fantastical icons, in the form of a futuristic sigil. It was in this gyne-canonical text that the term “cyberfeminism” first appeared",
+		"link": "https://vnsmatrix.net/projects/the-cyberfeminist-manifesto-for-the-21st-century"
 	},
 	{
         "image": "https://monoskop.org/images/b/bd/VNS_Matrix_7.jpg",
@@ -202,8 +202,8 @@ const jsonData = [
         "artist": "VNS Matrix",
 		"year": 1992,
 		"medium": "Digital image",
-		"description":"",
-		"link": "https://www.imdb.com/title/tt0045758"
+		"description":"ALL NEW GEN came from a desire to disrupt the machismo world of video games with a female non binary centric computer game. Originally called ‘Game Girl’ (a direct play on ‘Game Boy’) the project morphed into ALL NEW GEN. Its first iteration in 1992 was a series of light boxes and sound works, introducing the characters and scenarios of a hypothetical computer game",
+		"link": "https://vnsmatrix.net/projects/all-new-gen"
 	},
     {
         "image": "https://monoskop.org/images/8/87/VNS_Matrix_9.jpg",
@@ -211,8 +211,8 @@ const jsonData = [
         "artist": "VNS Matrix",
 		"year": 1994,
 		"medium": "Postcard",
-		"dimensions": "N/A",
-		"link": "https://www.imdb.com/title/tt0045758"
+		"description": "ALL NEW GEN came from a desire to disrupt the machismo world of video games with a female non binary centric computer game. Originally called ‘Game Girl’ (a direct play on ‘Game Boy’) the project morphed into ALL NEW GEN. Its first iteration in 1992 was a series of light boxes and sound works, introducing the characters and scenarios of a hypothetical computer game",
+		"link": "https://vnsmatrix.net/projects/all-new-gen"
 	}	
 ];
 
@@ -283,7 +283,7 @@ for (let item of jsonData) {
   });
 
     // EventListener for an image preview when mouse enters row
-    row.addEventListener('mouseenter', (event) => {
+    titleCell.addEventListener('mouseenter', (event) => {
         const previewImage = document.createElement('img');
         previewImage.src = item.image;
         previewImage.alt = item.title;
@@ -295,7 +295,7 @@ for (let item of jsonData) {
   });
 
   // Eventlistener when mouse leaves
-  row.addEventListener('mouseleave', () => {
+  titleCell.addEventListener('mouseleave', () => {
     const previewImage = document.querySelector('.preview-image');
     if (previewImage) {
       document.body.removeChild(previewImage);

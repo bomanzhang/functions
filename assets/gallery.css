@@ -59,27 +59,50 @@ h1 {
 .gallery-info h1:hover {
     color: black;
 }
-
-.switch {
-    position: fixed;
-    z-index: 1;
-    right: 0;
-    margin: 10px;
-    background-color: black;
-    border: 2px solid greenyellow;
-    border-radius: 30px;
-    padding: 2px 12px 4px 12px;
-    box-shadow: 0 0 12px 0px greenyellow;
+.switches {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  top: 0;
+  right: 0;
 }
 
-.switch:hover {
-    background-color: greenyellow;
-    border: 2px solid black;
+.switch1 {
+  position: block;
+  z-index: 1;
+  margin: 10px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 2px 12px 4px 12px;
+  box-shadow: 0 0 12px 0px greenyellow;
 }
 
-.switch h1:hover {
-    color: black;
+.switch1 h1 {
+  color: black;
 }
+
+
+.switch2 {
+  position: block;
+  z-index: 1;
+  margin: 10px;
+  background-color: black;
+  border: 2px solid greenyellow;
+  border-radius: 30px;
+  padding: 2px 12px 4px 12px;
+  box-shadow: 0 0 12px 0px greenyellow;
+}
+
+.switch2:hover {
+  background-color: greenyellow;
+  border: 2px solid black;
+}
+
+.switch2 h1:hover {
+  color: black;
+}
+
 
 #data-list {
   display: flex;
