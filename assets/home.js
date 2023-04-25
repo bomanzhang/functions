@@ -1,3 +1,4 @@
+
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
@@ -62,7 +63,7 @@ function animate(timeStamp){
   const deltaTime = timeStamp - lastTime;
   lastTime = timeStamp;
   if (timer > nextFrame){
-  ctx.fillStyle = 'rgba(0,0,0,0.1)';
+  ctx.fillStyle = 'rgba(0,0,0,0.02)';
   ctx.textAlign = 'center';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = 'greenyellow';
@@ -84,4 +85,14 @@ window.addEventListener('resize', function(){
 });
 
 // I followed this youtube tutorial for this effect: https://www.youtube.com/watch?v=f5ZswIE_SgY&ab_channel=Frankslaboratory
-//
+// I didn't change too much in terms of functionality but the tutorial doesn't have any code to copy/paste and was quite long and incredibly comprehensive on Procedural vs Object Programming and the various class constructors so hopefully that's okay!
+
+//EventListener for my fake tabs 
+const galleryTitle = document.querySelector('.gallery-title');
+const allInfo = document.querySelectorAll('.allInfo');
+
+galleryTitle.addEventListener('click', () => {
+  allInfo.forEach(info => {
+    info.classList.toggle('show');
+  });
+});
