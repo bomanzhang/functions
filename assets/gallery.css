@@ -202,13 +202,17 @@ h1 {
     object-fit: cover;
    }
     
-  .search-feature {
-    font-size: 1.2em;
-    width: 95%;
+   .switches {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
   }
 
+
   .fullscreen img {
-    max-width: 100%;
+    max-width: 95%;
     max-height: 70%;
     object-fit: contain;
     cursor: pointer;
