@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+body {
+  background: black;
+}
+  canvas {
+    position: absolute;
+    z-index: -999;
+    top:0;
+    left: 0;
+}
+
+@media only screen and (max-width:768px) and (min-width:200px) {
+  
+}

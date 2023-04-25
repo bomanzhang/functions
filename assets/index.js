@@ -218,22 +218,31 @@ const jsonData = [
 
 const tableBody = document.querySelector('#index-table tbody');
 
-// loop through the JSON data and create a table row for each item
 for (let item of jsonData) {
-  const row = tableBody.insertRow();
-  const titleCell = row.insertCell();
-  const image = document.createElement('img');
-  image.src = item.image;
-  image.alt = item.title;
-  titleCell.insertAdjacentHTML('beforeend', item.title);
-  row.insertCell().textContent = item.artist;
-  row.insertCell().textContent = item.year;
-  row.insertCell().textContent = item.medium;
+    const row = tableBody.insertRow();
+    const titleCell = row.insertCell();
 
-  // Creating a div class for Expand 
-  const expandCell = row.insertCell();
-  expandCell.textContent = `↓`;
-  expandCell.classList.add('expand-cell');
+    const image = document.createElement('img');
+    image.src = item.image;
+    image.alt = item.title;
+
+    titleCell.insertAdjacentHTML('beforeend', item.title);
+    titleCell.classList.add('title-cell');
+
+    row.insertCell().textContent = item.artist;
+  
+    const mediumCell = row.insertCell();
+    mediumCell.textContent = item.medium;
+    mediumCell.classList.add('medium-column');
+  
+    const yearCell = row.insertCell();
+    yearCell.textContent = item.year;
+    yearCell.classList.add('year-column');
+
+    // Creating a div class for Expand 
+    const expandCell = row.insertCell();
+    expandCell.textContent = `↓`;
+    expandCell.classList.add('expand-cell');
 
   const descriptionRow = tableBody.insertRow();
   const descriptionCell = descriptionRow.insertCell();
@@ -241,6 +250,7 @@ for (let item of jsonData) {
   descriptionCell.classList.add('description');
   descriptionCell.innerHTML = item.description;
 
+  // Source link after description 
   const sourceLink = document.createElement('a');
   sourceLink.href = item.link;
   sourceLink.textContent = '↗';
@@ -253,7 +263,7 @@ for (let item of jsonData) {
   descriptionImage.classList.add('artwork-image');
   descriptionCell.appendChild(descriptionImage);
 
-  // Initial hiding the description
+  // Hiding the description
   descriptionCell.style.display = 'none';
 
   // Adding a click event listener to toggle description visibility
@@ -261,17 +271,19 @@ for (let item of jsonData) {
     if (descriptionCell.style.display == 'none') {
       descriptionCell.style.display = 'table-cell';
       expandCell.textContent = '↑'; // change to 'Close'
+
       // Insert the description row
       tableBody.insertBefore(descriptionRow, row.nextSibling);
     } else {
       descriptionCell.style.display = 'none';
-      expandCell.textContent = '↓'; // change back to 'Expand'
+      // Changing back to 'Expand'
+      expandCell.textContent = '↓'; 
       tableBody.removeChild(descriptionRow);
     }
   });
 
-    // EventListener for an image preview when mouse enters title
-    titleCell.addEventListener('mouseenter', (event) => {
+    // EventListener for an image preview when mouse enters row
+    row.addEventListener('mouseenter', (event) => {
         const previewImage = document.createElement('img');
         previewImage.src = item.image;
         previewImage.alt = item.title;
@@ -282,8 +294,8 @@ for (let item of jsonData) {
         document.body.appendChild(previewImage);
   });
 
-  // Eventlistner when mouse leaves
-  titleCell.addEventListener('mouseleave', () => {
+  // Eventlistener when mouse leaves
+  row.addEventListener('mouseleave', () => {
     const previewImage = document.querySelector('.preview-image');
     if (previewImage) {
       document.body.removeChild(previewImage);
