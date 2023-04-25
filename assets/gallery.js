@@ -21,7 +21,7 @@ const renderItems = (data) => {
 				<p>Artist: ${item.artist}</p>
 				<p>Medium: ${item.medium}</p>
 				<a href="${item.link}">
-					<p>Source</p>
+					<p>↗</p>
 				</a>
 			`
 		//listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert

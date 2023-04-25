@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-color: black;
   }
@@ -17,39 +22,46 @@ h1 {
     position: fixed;
     z-index: 1;
     margin: 10px;
-    right:0;
-    top: 0;
+    left: 0;
     background-color: black;
     border: 2px solid greenyellow;
     border-radius: 30px;
     padding: 2px 12px 4px 12px;
     box-shadow: 0 0 12px 0px greenyellow;
-
 }
 
-.gallery-info {
-    position: fixed;
-    z-index: 1;
-    right: 0;
-    bottom: 0;
-    margin: 10px;
-    background-color: black;
-    border: 2px solid greenyellow;
-    border-radius: 30px;
-    padding: 2px 12px 4px 12px;
-    box-shadow: 0 0 12px 0px greenyellow;
+.gallery-title:hover {
+    background-color: greenyellow;
+    border: 2px solid black;   
+}
+
+.gallery-title h1:hover {
+    color: black;
 }
 
 .switch {
     position: fixed;
     z-index: 1;
-    bottom: 0;
+    right: 0;
     margin: 10px;
     background-color: black;
     border: 2px solid greenyellow;
     border-radius: 30px;
     padding: 2px 12px 4px 12px;
     box-shadow: 0 0 12px 0px greenyellow;
+}
+
+.switch:hover {
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+.switch h1:hover {
+    color: black;
+}
+
+table {
+    width: 100%;
 }
 
 td {
@@ -63,41 +75,33 @@ th {
     color: greenyellow;
     padding-bottom: 1em;
     padding-top: 8em !important;
+    
+}
+
+.tbody {
+    width: auto;
+    table-layout: auto;
+}
+
+.expand-cell {
+    cursor: pointer;
+    table-layout: auto;
 }
 
 #index-table {
-    width: 100%;
+    width: 99vw;
     margin: 10px;
+    table-layout: auto;
 }
 
 .artwork-image {
-    display: none;
-    position: fixed;
-    max-width: 50%;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  td:first-child:hover .artwork-image {
     display: block;
-  }
+    width: 70%;
+    margin-top: 10px;
+}
 
-.search-feature {
-    font-family: 'Silkscreen', cursive;
-    color: greenyellow;
-    font-size: 1.4em;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    margin: 10px;
-    background-color: black;
-    border: 1px solid greenyellow;
-    border-radius: 30px;
-    padding: 2px 12px 4px 12px;
-    box-shadow: 0 0 12px 0px greenyellow;
+.preview-image {
+    max-width: 250px;
 }
 
 @media only screen and (max-width:768px) and (min-width:200px) {

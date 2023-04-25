@@ -5,7 +5,7 @@ const jsonData = [
         "artist": "In Her Interior",
         "year": 2018,
         "medium":"installation",
-        "description":"",
+        "description":" In Her Interior exhibited the video and soundwork installation 'her eyes were as black as coal...' at 205 Hudson Gallery in New York. They had produced the work for an event called Refiguring the Future. Three characters - krill, spore and terra - emerged from the not-yet photographed black hole. The conditions momentarily perfect to give voice to the anthropoetics of time-travelling fossil-becomings. These voices without organs had been channeled by In Her Interior through field trips and the fugue-induced sympoiesis of collaborative writing across timespace",
         "link": "http://www.anat.org.au/anat-update/anat-alumnus-virginia-barratt/"
     },
     {   
@@ -59,6 +59,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1999,
         "medium": "Video art",
+        "description":"",
         "link": "http://www.lindadement.com/in-my-gash.htm"
     },
     {   
@@ -67,6 +68,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1995,
         "medium": "CD-ROM, Interactive art",
+        "description":"",
         "link": "http://www.lindadement.com/cyberflesh-girlmonster.htm"
     },
     {   
@@ -75,6 +77,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1995,
         "medium": "CD-ROM, Interactive art",
+        "description":"",
         "link": "http://www.lindadement.com/cyberflesh-girlmonster.htm"
     },
     {   
@@ -83,6 +86,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1995,
         "medium": "CD-ROM, Interactive art",
+        "description":"",
         "link": "http://www.lindadement.com/cyberflesh-girlmonster.htm"
     },
     {   
@@ -91,6 +95,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1991,
         "medium": "CD-ROM, Interactive art",
+        "description":"",
         "link": "http://www.lindadement.com/typhoid-mary.htm"
     },
     {   
@@ -99,6 +104,7 @@ const jsonData = [
         "artist": "Linda Dement",
         "year": 1991,
         "medium": "CD-ROM, Interactive art",
+        "description":"",
         "link": "http://www.lindadement.com/typhoid-mary.htm"
     },
     {   
@@ -107,6 +113,7 @@ const jsonData = [
         "artist": "Eclectic Tech Carnival",
         "year": 2004,
         "medium": "Logo",
+        "description":"",
         "link": "https://eclectictechcarnival.org/"
     },
     {   
@@ -115,6 +122,7 @@ const jsonData = [
         "artist": "The Old Boys Network",
         "year": 1997,
         "medium": "Poster",
+        "description":"",
         "link": "https://obn.org/obn/reading_room/manifestos/html/anti.html"
     },
     {
@@ -123,7 +131,7 @@ const jsonData = [
         "artist": "Cornelia Solfrank",
         "year": 2001,
         "medium": "Conceptual internet project",
-        "dimensions": "N/A",
+        "description":"",
         "link": "https://transhackfeminist.noblogs.org/"
     },
     {     
@@ -132,7 +140,7 @@ const jsonData = [
         "artist": "Cornelia Solfrank",
         "year": 1997,
         "medium": "Net.art",
-        "dimensions": "N/A",
+        "description":"",
         "link": "https://transhackfeminist.noblogs.org/"
     },
     {      
@@ -141,7 +149,7 @@ const jsonData = [
         "artist": "TransHACKfeminist! Camp",
         "year": 2014,
         "medium": "Digital collage, poster",
-        "dimensions": "N/A",
+        "description":"",
         "link": "https://transhackfeminist.noblogs.org/"
     },
     {   
@@ -150,7 +158,7 @@ const jsonData = [
         "artist": "TransHACKfeminist! Camp",
         "year": 2014,
         "medium": "Digital collage, poster",
-        "dimensions": "N/A",
+        "description":"",
         "link": "https://transhackfeminist.noblogs.org/"
     },
     {   
@@ -159,7 +167,7 @@ const jsonData = [
         "artist": "TransHACKfeminist! Camp",
         "year": 2014,
         "medium": "Digital collage, poster",
-        "dimensions": "N/A",
+        "description":"",
         "link": "https://transhackfeminist.noblogs.org/"
     },
     {
@@ -168,7 +176,7 @@ const jsonData = [
         "artist": "Varia Rotterdam",
         "year": 2019,
         "medium": "Mixed media",
-        "dimensions": "N/A",
+        "description":"",
         "link": "https://www.imdb.com/title/tt0045758"
     },
 	{   "image": "https://monoskop.org/images/4/44/VNS_Matrix_1.jpg",
@@ -176,7 +184,7 @@ const jsonData = [
         "artist": "VNS Matrix",
 		"year": 2007,
 		"medium": "Postcard",
-		"dimensions": "N/A",
+		"description":"",
         "link": "https://www.imdb.com/title/tt0045758"
 	},
 	{
@@ -185,7 +193,7 @@ const jsonData = [
         "artist": "VNS Matrix",
 		"year": 1991,
 		"medium": "Billboard, digital image",
-		"dimensions": "6000 mm x 3000 m",
+		"description":"",
 		"link": "https://www.imdb.com/title/tt0045758"
 	},
 	{
@@ -194,7 +202,7 @@ const jsonData = [
         "artist": "VNS Matrix",
 		"year": 1992,
 		"medium": "Digital image",
-		"dimensions": "N/A",
+		"description":"",
 		"link": "https://www.imdb.com/title/tt0045758"
 	},
     {
@@ -212,58 +220,75 @@ const tableBody = document.querySelector('#index-table tbody');
 
 // loop through the JSON data and create a table row for each item
 for (let item of jsonData) {
-    const row = tableBody.insertRow();
-    const titleCell = row.insertCell();
-    const image = document.createElement('img');
-    image.src = item.image;
-    image.alt = item.title;
-    image.classList.add('artwork-image');
-    titleCell.appendChild(image);
-    titleCell.insertAdjacentHTML('beforeend', item.title);
-    row.insertCell().textContent = item.artist;
-    row.insertCell().textContent = item.year;
-    row.insertCell().textContent = item.medium;
-    row.insertCell().innerHTML = `<a href="${item.link}">Source</a>`;
-  }
+  const row = tableBody.insertRow();
+  const titleCell = row.insertCell();
+  const image = document.createElement('img');
+  image.src = item.image;
+  image.alt = item.title;
+  titleCell.insertAdjacentHTML('beforeend', item.title);
+  row.insertCell().textContent = item.artist;
+  row.insertCell().textContent = item.year;
+  row.insertCell().textContent = item.medium;
 
-//Search button
-  const searchBtn = document.querySelector('#search-btn');
-  const clearBtn = document.querySelector('#clear-btn');
-  searchBtn.addEventListener('click', search);
-  clearBtn.addEventListener('click', clearSearch);
-  function search() {
-    const searchInput = document.querySelector('#search').value.toLowerCase();
-    const filteredData = jsonData.filter(item =>
-      item.title.toLowerCase().includes(searchInput) ||
-      item.artist.toLowerCase().includes(searchInput) ||
-      item.year.toString().includes(searchInput) ||
-      item.medium.toLowerCase().includes(searchInput) ||
-      item.dimensions.toLowerCase().includes(searchInput)
-    );
-    renderTable(filteredData);
-  }
+  // Creating a div class for Expand 
+  const expandCell = row.insertCell();
+  expandCell.textContent = `↓`;
+  expandCell.classList.add('expand-cell');
 
-//Clear search
-  function clearSearch() {
-    document.querySelector('#search').value = '';
-    renderTable(jsonData);
-  }
+  const descriptionRow = tableBody.insertRow();
+  const descriptionCell = descriptionRow.insertCell();
+  descriptionCell.colSpan = 5;
+  descriptionCell.classList.add('description');
+  descriptionCell.innerHTML = item.description;
 
-//Render table for search results 
-  function renderTable(data) {
-    tableBody.innerHTML = '';
-    for (let item of data) {
-      const row = tableBody.insertRow();
-      const titleCell = row.insertCell();
-      const image = document.createElement('img');
-      image.src = item.image;
-      image.alt = item.title;
-      image.classList.add('artwork-image');
-      titleCell.appendChild(image);
-      titleCell.insertAdjacentHTML('beforeend', item.title);
-      row.insertCell().textContent = item.artist;
-      row.insertCell().textContent = item.year;
-      row.insertCell().textContent = item.medium;
-      row.insertCell().innerHTML = `<a href="${item.link}">Source</a>`;
+  const sourceLink = document.createElement('a');
+  sourceLink.href = item.link;
+  sourceLink.textContent = '↗';
+  descriptionCell.appendChild(sourceLink);
+
+  // Create a new img element for the description row
+  const descriptionImage = document.createElement('img');
+  descriptionImage.src = item.image;
+  descriptionImage.alt = item.title;
+  descriptionImage.classList.add('artwork-image');
+  descriptionCell.appendChild(descriptionImage);
+
+  // Initial hiding the description
+  descriptionCell.style.display = 'none';
+
+  // Adding a click event listener to toggle description visibility
+  expandCell.addEventListener('click', () => {
+    if (descriptionCell.style.display == 'none') {
+      descriptionCell.style.display = 'table-cell';
+      expandCell.textContent = '↑'; // change to 'Close'
+      // Insert the description row
+      tableBody.insertBefore(descriptionRow, row.nextSibling);
+    } else {
+      descriptionCell.style.display = 'none';
+      expandCell.textContent = '↓'; // change back to 'Expand'
+      tableBody.removeChild(descriptionRow);
     }
-  }
+  });
+
+    // EventListener for an image preview when mouse enters title
+    titleCell.addEventListener('mouseenter', (event) => {
+        const previewImage = document.createElement('img');
+        previewImage.src = item.image;
+        previewImage.alt = item.title;
+        previewImage.classList.add('preview-image');
+        previewImage.style.position = 'absolute';
+        previewImage.style.top = `${event.clientY}px`;
+        previewImage.style.left = `${event.clientX+20}px`;
+        document.body.appendChild(previewImage);
+  });
+
+  // Eventlistner when mouse leaves
+  titleCell.addEventListener('mouseleave', () => {
+    const previewImage = document.querySelector('.preview-image');
+    if (previewImage) {
+      document.body.removeChild(previewImage);
+    }
+  });
+}
+
+
