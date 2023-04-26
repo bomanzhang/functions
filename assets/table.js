@@ -23,7 +23,7 @@ const jsonData = [
           "artist": "Mez Breeze",
           "year": 1998,
           "medium": "Javascript-based project",
-          "description":"d ‘7-11 was one of Mez Breeze's earliest testing grounds for Mezangelle. Founded in 1997 by Vuk Cosic, Heath Bunting, Alexei Shulgin, Udo Noll, and Jodi.org, 7-11 aimed to explore the email list as a site not only of discussion and community-building, but also of artistic possibility. 7-11 was itself a multi-year, collaborative artwork",
+          "description":"7-11 was one of Mez Breeze's earliest testing grounds for Mezangelle. Founded in 1997 by Vuk Cosic, Heath Bunting, Alexei Shulgin, Udo Noll, and Jodi.org, 7-11 aimed to explore the email list as a site not only of discussion and community-building, but also of artistic possibility. 7-11 was itself a multi-year, collaborative artwork",
           "link": "https://anthology.rhizome.org/mez-breeze"
       },
       {   
