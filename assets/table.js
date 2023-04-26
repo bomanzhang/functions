@@ -363,24 +363,32 @@ for (let item of jsonData) {
     }
   });
 
-    // Event Listener for an hover image preview when mouse enters row
-    titleCell.addEventListener('mouseenter', (event) => {
-        const previewImage = document.createElement('img');
-        previewImage.src = item.image;
-        previewImage.alt = item.title;
-        previewImage.classList.add('preview-image');
-        previewImage.style.position = 'absolute';
-        previewImage.style.top = `${event.clientY}px`;
-        previewImage.style.left = `${event.clientX+20}px`;
-        document.body.appendChild(previewImage);
+// Event Listener for a hover image preview when mouse enters row
+titleCell.addEventListener('mouseenter', (event) => {
+    const previewImage = document.createElement('img');
+    previewImage.src = item.image;
+    previewImage.alt = item.title;
+    previewImage.classList.add('preview-image');
+    previewImage.style.position = 'absolute';
+    previewImage.style.top = `${event.clientY - 20}px`;
+    previewImage.style.left = `${event.clientX + 20}px`;
+    document.body.appendChild(previewImage);
+  
+    // Preview image next to mouse
+    titleCell.addEventListener('mousemove', (event) => {
+      previewImage.style.top = `${event.clientY}px`;
+      previewImage.style.left = `${event.clientX+20}px`;
+    });
   });
-
-  // Event Listener when mouse leaves
+  
+  // Mouse leaves remove image
   titleCell.addEventListener('mouseleave', () => {
     const previewImage = document.querySelector('.preview-image');
     if (previewImage) {
       document.body.removeChild(previewImage);
     }
+
+    titleCell.removeEventListener('mousemove');
   });
 }
 

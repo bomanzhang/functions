@@ -122,7 +122,7 @@ th {
 }
 
 .preview-image {
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .title-p, .artist-p, .year-p, .medium-p {
@@ -131,6 +131,10 @@ th {
     padding-bottom: 1px;
     width:fit-content;
 
+}
+
+.title-cell {
+    cursor: pointer;
 }
 
 @media only screen and (max-width:768px) and (min-width:200px) {
