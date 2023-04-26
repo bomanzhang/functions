@@ -85,9 +85,9 @@ window.addEventListener('resize', function(){
 });
 
 // I followed this youtube tutorial for this effect: https://www.youtube.com/watch?v=f5ZswIE_SgY&ab_channel=Frankslaboratory
-// I didn't change too much in terms of functionality but the tutorial doesn't have any code to copy/paste and was quite long and incredibly comprehensive on Procedural vs Object Programming and the various class constructors so hopefully that's okay!
+// I didn't change too much in terms of functionality but the tutorial doesn't have any code to copy/paste and was long and incredibly comprehensive with Procedural vs Object Programming and the various class constructors so hopefully that's okay!
 
-//EventListener for my fake tabs 
+//Event Listener for my fake browser tabs 
 const galleryTitle = document.querySelector('.gallery-title');
 const allInfo = document.querySelectorAll('.allInfo');
 

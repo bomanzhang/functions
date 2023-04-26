@@ -347,14 +347,14 @@ for (let item of jsonData) {
   // Hiding the description
   descriptionCell.style.display = 'none';
 
-  // Adding a click event listener to toggle description visibility
+  // Adding a click Event Listener to toggle description visibility
   expandCell.addEventListener('click', () => {
     if (descriptionCell.style.display == 'none') {
       descriptionCell.style.display = 'table-cell';
       expandCell.textContent = '↑'; // change to 'Close'
 
-      // Insert the description row
-      tableBody.insertBefore(descriptionRow, row.nextSibling);
+    // Insert the description row
+    tableBody.insertBefore(descriptionRow, row.nextSibling);
     } else {
       descriptionCell.style.display = 'none';
       // Changing back to 'Expand'
@@ -363,7 +363,7 @@ for (let item of jsonData) {
     }
   });
 
-    // EventListener for an image preview when mouse enters row
+    // Event Listener for an hover image preview when mouse enters row
     titleCell.addEventListener('mouseenter', (event) => {
         const previewImage = document.createElement('img');
         previewImage.src = item.image;
@@ -375,7 +375,7 @@ for (let item of jsonData) {
         document.body.appendChild(previewImage);
   });
 
-  // Eventlistener when mouse leaves
+  // Event Listener when mouse leaves
   titleCell.addEventListener('mouseleave', () => {
     const previewImage = document.querySelector('.preview-image');
     if (previewImage) {
