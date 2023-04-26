@@ -154,6 +154,9 @@ h1 {
   line-height: 1.5;
 }
 
+.fullscreen-details a {
+    text-shadow:1px 1px 10px greenyellow, 1px 1px 10px greenyellow;
+}
   .home-title {
     font-family: 'Silkscreen', cursive;
     color: greenyellow;

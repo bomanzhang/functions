@@ -108,6 +108,11 @@ th {
     table-layout: auto;
 }
 
+.expand-cell p {
+    text-shadow:1px 1px 12px greenyellow, 1px 1px 12px greenyellow;
+
+}
+
 #index-table {
     width: 98vw;
     margin: 10px;
@@ -136,6 +141,10 @@ th {
 .title-cell {
     cursor: pointer;
 }
+
+table a {
+    text-shadow:1px 1px 10px greenyellow, 1px 1px 10px greenyellow;
+  }
 
 @media only screen and (max-width:768px) and (min-width:200px) {
 
